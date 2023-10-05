@@ -3,7 +3,6 @@ import Logo from '../Logo'
 import OpcoesHeader from '../OpcoesHeader'
 import IconesHeader from '../IconesHeader'
 
-
 function Header() {
     return(
         <header className="App-header">
