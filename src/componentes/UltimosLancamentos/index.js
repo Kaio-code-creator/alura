@@ -20,7 +20,12 @@ const NovosLivrosContainer = styled.div`
 function UltimosLancamentos() {
     return (
         <UltimosLancamentosContainer>
-            <Titulo cor={"#000"}>ÚLTIMOS LANÇAMENTOS</Titulo>
+            <Titulo
+                cor={"#EB9B00"}
+                tamanhoFonte={"36px"}
+            >
+                ÚLTIMOS LANÇAMENTOS
+            </Titulo>
             <NovosLivrosContainer>
                 { livros.map( livro => (
                     <img src={livro.src}/>
