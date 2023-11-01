@@ -10,9 +10,11 @@ const HeaderContainer = styled.header`
 `
 
 function Header() {
-    return(
+    return (
         <HeaderContainer>
-            <Logo/>
+            <Link to="/">
+                <Logo/>
+            </Link>
             <OpcoesHeader/>
             <IconesHeader/>
         </HeaderContainer>
